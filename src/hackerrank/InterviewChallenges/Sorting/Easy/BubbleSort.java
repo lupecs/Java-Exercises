@@ -1,4 +1,4 @@
-package hackerrank.InterviewChallenges.Sorting;
+package hackerrank.InterviewChallenges.Sorting.Easy;
 
 import java.util.List;
 
@@ -21,5 +21,9 @@ public class BubbleSort {
         System.out.printf("Array is sorted in %d swaps.\n", numOfSwaps);
         System.out.printf("First Element: %d\n", a.get(0));
         System.out.printf("Last Element: %d\n", a.get(a.size() - 1));
+    }
+
+    public static void main(String[] args) {
+
     }
 }
